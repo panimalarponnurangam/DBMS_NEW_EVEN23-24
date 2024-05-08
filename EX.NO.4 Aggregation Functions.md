@@ -37,7 +37,8 @@ To study and write aggregation functions, group by and having clause with suitab
 ```
 ## GROUP BY CLAUSE
 ```
-GROUP BY: This query is used to group all the records in a relation together for each and every value of a specific key(s) and then display them for a selected set of fields in the relation. 
+GROUP BY: This query is used to group all the records in a relation together for each and every value of a specific
+ key(s) and then display them for a selected set of fields in the relation. 
 Syntax: 
 SELECT column_name(s)
 FROM table_name
@@ -47,7 +48,8 @@ ORDER BY column_name(s);
 ```
 ## HAVING CLAUSE 
 ```
-The HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions. The HAVING clause must follow the GROUP BY clause in a query and must also precede the ORDER BY clause if used. 
+The HAVING clause was added to SQL because the WHERE keyword could not be used with aggregate functions.
+The HAVING clause must follow the GROUP BY clause in a query and must also precede the ORDER BY clause if used. 
 Syntax: 
 SELECT column_name(s)
 FROM table_name
